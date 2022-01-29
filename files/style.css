@@ -1,0 +1,57 @@
+body {
+    /*display: grid;
+    place-items: center;*/
+}
+
+
+.bollar {
+    position: absolute;
+    display: grid;
+    place-items: center;
+    width: 30vh;
+    height: 30vh;
+    background-color: blue;
+    border-radius: 50%;
+    /*animation-name: bol;
+    animation-duration: 10s;
+    animation-iteration-count: infinite; */
+}
+
+.botun {
+    width: 30vh;
+    height: 30vh;
+    border-radius: 50%;
+    border: none;
+    background-color: transparent;
+}
+
+.noselect {
+    user-select: none;
+}
+
+.menoi {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.pausmeny {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: orange;
+    display: none;
+    width: 30vh;
+    height: 30vh;
+    
+}
+
+@keyframes bol {
+    0% {transform: translate(0,0);}
+    25% {transform: translate(84vw, 68vh); background-color:green;} /* 50 - half the height of object*/
+    50% {transform: translate(84vw, 0); background-color:red;}
+    75% {transform: translate(0, 68vh); background-color:pink;}
+    100% {transform: translate(0,0); background-color: blue;}
+}

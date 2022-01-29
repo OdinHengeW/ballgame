@@ -1,0 +1,6 @@
+TODO
+
+- Center bol initially
+- Lose on miss
+- Timer
+-
